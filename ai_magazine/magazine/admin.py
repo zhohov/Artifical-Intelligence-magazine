@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+from magazine.models import Release, Article
+
+admin.site.register(Release)
+admin.site.register(Article)
